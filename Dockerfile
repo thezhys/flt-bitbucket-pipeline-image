@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND noninteractive
 #Set variables
 ENV APPPORT=8081
 
-RUN apt-get update -yqq --force-yes --fix-missing
+RUN apt-get update -yqq --fix-missing
 
 RUN apt-get install -y software-properties-common python-software-properties wget locales
 
