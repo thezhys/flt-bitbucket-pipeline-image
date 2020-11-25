@@ -31,25 +31,25 @@ RUN apt-get -yqq --fix-missing install \
       libc-client-dev \
       zip \
       unzip \
-      php7.2 \
+      php7.4 \
       libapache2-mod-php7.2 \
-      php7.2-cli \
-      php7.2-mbstring \
-      php7.2-mysql \
-      php7.2-curl \
-      php7.2-json \
-      php7.2-intl \
-      php7.2-gd \
-      php7.2-xml \
-      php7.2-zip \
-      php7.2-bz2 \
-      php7.2-opcache \
-      php7.2-pgsql \
-      php7.2-sqlite3\
-      php7.2-intl \
-      php7.2-bcmath \
-      php7.2-soap \
-      php7.2-readline
+      php7.4-cli \
+      php7.4-mbstring \
+      php7.4-mysql \
+      php7.4-curl \
+      php7.4-json \
+      php7.4-intl \
+      php7.4-gd \
+      php7.4-xml \
+      php7.4-zip \
+      php7.4-bz2 \
+      php7.4-opcache \
+      php7.4-pgsql \
+      php7.4-sqlite3\
+      php7.4-intl \
+      php7.4-bcmath \
+      php7.4-soap \
+      php7.4-readline
 
 
 ##########  Node + Yarn install  ###############
