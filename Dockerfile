@@ -72,6 +72,7 @@ RUN a2ensite 000-default && \
     a2ensite laravel && \
     a2enmod rewrite
 
+RUN echo 'ServerName localhost' >> /etc/apache2/apache2.conf
 RUN service apache2 restart
 
 # Downloading and installing composer
