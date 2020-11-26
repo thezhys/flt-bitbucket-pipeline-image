@@ -56,7 +56,7 @@ RUN apt-get -yqq --fix-missing install \
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 RUN echo "deb http://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
 
-RUN curl -sL https://deb.nodesource.com/setup_13.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_15.x | bash -
 
 RUN apt-get update -yqq && apt-get -yqq --fix-missing install nodejs yarn
 
